@@ -64,7 +64,7 @@
 
 ## 🚀 Featured Projects
 
-### 💬 FlowChat – Real-Time Messaging Platform (2024)
+### 💬 FlowChat – Real-Time Messaging Platform (2025)
 
 - ⚡ Built a **full-stack chat application** with **WebSocket (Socket.io)** supporting private & group conversations
 - 📨 Implemented **comprehensive message features**: reply, edit, delete, forward, pin, star + delivered/seen indicators
