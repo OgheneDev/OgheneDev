@@ -26,9 +26,10 @@ I build and maintain **production web systems** with a focus on:
 ```yaml
 Backend Focus:
   ├─ Architecture & Data Modeling
-  ├─ Authentication & Authorization
-  ├─ Multi-tenant Patterns
-  └─ Real-time Systems
+  ├─ Multi-tenant SaaS Systems
+  ├─ Authentication & RBAC
+  ├─ Audit Logs & Observability
+  └─ Real-time & Event-Driven Systems
 ```
 
 </td>
@@ -36,10 +37,11 @@ Backend Focus:
 
 ```yaml
 Engineering Principles:
-  ├─ Maintainable Code
-  ├─ Scalable Design
-  ├─ System Observability
-  └─ Production Readiness
+  ├─ PostgreSQL Multi-tenancy
+  ├─ Audit Trail Systems
+  ├─ Row-Level Security
+  ├─ Database Optimization
+  └─ Production-Grade Architecture
 ```
 
 </td>
@@ -244,22 +246,31 @@ const contributions = {
 ```mermaid
 mindmap
   root((SaaS Engineering))
+    PostgreSQL Mastery
+      Multi-tenant patterns
+      Row-level security RLS
+      Audit logging systems
+      Tenant isolation strategies
     Architecture
-      Multi-tenancy patterns
-      RBAC systems
-      Scalable design
-    Operations
-      Audit logs
-      Observability
-      System monitoring
+      RBAC & Permissions
+      Event-driven design
+      Microservices patterns
+      API versioning
+    Data Integrity
+      Transaction management
+      Soft deletes & temporal data
+      Database migrations
+      Backup & recovery
+    Observability
+      Structured logging
+      Performance monitoring
+      Error tracking
+      Metrics & alerting
     Business Logic
-      Billing systems
-      Subscription management
-      Payment processing
-    Principles
-      Maintainability
-      Documentation
-      Testing strategies
+      Billing & subscriptions
+      Webhook systems
+      Background jobs
+      Rate limiting
 ```
 
 </div>
